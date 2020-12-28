@@ -1,3 +1,5 @@
+## In this coding practice, the mistake is to write the single script because it can become too long for coding literacy
+
 ## Obtain and unzip the database
 download.file("https://d396qusza40orc.cloudfront.net/dsscapstone/dataset/Coursera-SwiftKey.zip",
   destfile = "files", method = "curl")
