@@ -1,5 +1,5 @@
 ## Retrieve the dataset from computer file
-blogbigram<-paste(getwd(),"/Raw-and-Relational-Datasets/blogbigram",sep="")
+blogbigram<-paste(getwd(),"/Raw-and-Relational-Datasets/blogbigram",sep="") ## This should be in dataset file, not Raw-and-Relational-Datasets
 newsbigram<-paste(getwd(),"/Raw-and-Relational-Datasets/newsbigram",sep="")
 twitterbigram<-paste(getwd(),"/Raw-and-Relational-Datasets/twitterbigram",sep="")
 read.csv(blogbigram)->blogbigram
